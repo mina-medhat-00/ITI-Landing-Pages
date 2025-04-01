@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Twitter</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav-links">
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-solid fa-house"></i><span>Home</span></a>
+        <a href="#"
+          ><i class="fa-regular fa-hashtag"></i><span>Explore</span></a
+        >
+        <a href="#"
+          ><i class="fa-regular fa-bell"></i><span>Notifications</span></a
+        >
+        <a href="#"
+          ><i class="fa-regular fa-envelope"></i><span>Messages</span></a
+        >
+        <a href="#"
+          ><i class="fa-regular fa-bookmark"></i><span>Bookmarks</span></a
+        >
+        <a href="#"
+          ><i class="fa-regular fa-rectangle-list"></i><span>Lists</span></a
+        >
+        <a href="#"><i class="fa-regular fa-user"></i><span>Profile</span></a>
+        <a href="#"><i class="fa-solid fa-ellipsis"></i><span>More</span></a>
+        <button class="tweet-button">Tweet</button>
+      </div>
+      <div class="main-account">
+        <a href="#">
+          <img class="avatar" src="./assets/images/avatar.png" alt="avatar" />
+          <div class="account-details">
+            <span class="account-name">John Doe</span>
+            <span class="account-handle">@john-doe</span>
+          </div>
+          <i class="fa-solid fa-ellipsis"></i>
+        </a>
+      </div>
+    </header>
+    <main>
+      <div class="twitter-feed">
+        <!-- main feed -->
+        <div class="main-feed">
+          <!-- home bar -->
+          <div class="home-bar">
+            <span>Home</span>
+            <i class="material-icons-outlined">auto_awesome</i>
+          </div>
+          <!-- new tweet section -->
+          <div class="new-tweet">
+            <img class="avatar" src="./assets/images/avatar.png" alt="avatar" />
+            <div class="new-tweet-details">
+              <input type="text" placeholder="What's happening?" />
+              <div class="new-tweet-actions">
+                <ul>
+                  <li><i class="material-icons-outlined"> image </i></li>
+                  <li><i class="material-icons-outlined"> gif_box </i></li>
+                  <li><i class="material-icons-outlined"> poll </i></li>
+                  <li>
+                    <i class="material-icons-outlined"> sentiment_satisfied </i>
+                  </li>
+                </ul>
+                <button class="tweet-button">Tweet</button>
+              </div>
+            </div>
+          </div>
+          <!-- tweets section -->
+          <div class="tweets-container">
+            <div class="tweet">
+              <img
+                class="avatar"
+                src="./assets/images/avatar.png"
+                alt="avatar"
+              />
+              <div class="tweet-details">
+                <div class="poster-header">
+                  <div class="poster-details">
+                    Alice Doe
+                    <span class="poster-handle">@alice-doe</span>
+                    <span class="poster-time">• 12m</span>
+                  </div>
+                  <a href="#"><i class="fa-solid fa-angle-down"></i></a>
+                </div>
+                <div class="tweet-content">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Veniam harum adipisci deleniti quas eius facilis, nisi aut?
+                    Nihil dicta ea nemo? Sit deserunt repellat iusto earum.
+                    Soluta esse accusamus sed.
+                  </p>
+                </div>
+                <div class="tweet-icons">
+                  <a href="#"><i class="fa-regular fa-comment"></i></a>
+                  <a href="#"
+                    ><i class="fa-solid fa-arrow-up-from-bracket"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-retweet"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="tweet">
+              <img
+                class="avatar"
+                src="./assets/images/avatar.png"
+                alt="avatar"
+              />
+              <div class="tweet-details">
+                <div class="poster-header">
+                  <div class="poster-details">
+                    Bob Doe
+                    <span class="poster-handle">@bob-doe</span>
+                    <span class="poster-time">• 8h</span>
+                  </div>
+                  <a href="#"><i class="fa-solid fa-angle-down"></i></a>
+                </div>
+                <div class="tweet-content">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Veniam harum adipisci deleniti quas eius facilis, nisi aut?
+                    Nihil dicta ea nemo? Sit deserunt repellat iusto earum.
+                    Soluta esse accusamus sed.
+                  </p>
+                </div>
+                <div class="tweet-icons">
+                  <a href="#"><i class="fa-regular fa-comment"></i></a>
+                  <a href="#"
+                    ><i class="fa-solid fa-arrow-up-from-bracket"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-retweet"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="tweet">
+              <img
+                class="avatar"
+                src="./assets/images/avatar.png"
+                alt="avatar"
+              />
+              <div class="tweet-details">
+                <div class="poster-header">
+                  <div class="poster-details">
+                    Carl Doe
+                    <span class="poster-handle">@carl-doe</span>
+                    <span class="poster-time">• 3h</span>
+                  </div>
+                  <a href="#"><i class="fa-solid fa-angle-down"></i></a>
+                </div>
+                <div class="tweet-content">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Veniam harum adipisci deleniti quas eius facilis, nisi aut?
+                    Nihil dicta ea nemo? Sit deserunt repellat iusto earum.
+                    Soluta esse accusamus sed.
+                  </p>
+                </div>
+                <div class="tweet-icons">
+                  <a href="#"><i class="fa-regular fa-comment"></i></a>
+                  <a href="#"
+                    ><i class="fa-solid fa-arrow-up-from-bracket"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-retweet"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="tweet">
+              <img
+                class="avatar"
+                src="./assets/images/avatar.png"
+                alt="avatar"
+              />
+              <div class="tweet-details">
+                <div class="poster-header">
+                  <div class="poster-details">
+                    Ethan Doe
+                    <span class="poster-handle">@ethan-doe</span>
+                    <span class="poster-time">• 15h</span>
+                  </div>
+                  <a href="#"><i class="fa-solid fa-angle-down"></i></a>
+                </div>
+                <div class="tweet-content">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Veniam harum adipisci deleniti quas eius facilis, nisi aut?
+                    Nihil dicta ea nemo? Sit deserunt repellat iusto earum.
+                    Soluta esse accusamus sed.
+                  </p>
+                </div>
+                <div class="tweet-icons">
+                  <a href="#"><i class="fa-regular fa-comment"></i></a>
+                  <a href="#"
+                    ><i class="fa-solid fa-arrow-up-from-bracket"></i
+                  ></a>
+                  <a href="#"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#"><i class="fa-solid fa-retweet"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- side feed -->
+        <div class="side-feed">
+          <!-- search section -->
+          <div class="search-bar">
+            <input type="text" placeholder="Search Twitter" />
+          </div>
+          <!-- trending section -->
+          <div class="trending-container">
+            <!-- title -->
+            <div class="trending-title">
+              <h1>Trends for you</h1>
+              <a href="#"><i class="fa-solid fa-gear"></i></a>
+            </div>
+            <!-- trends -->
+            <div class="trending-items-container">
+              <div class="trending-item">
+                <div class="trending-item-category">
+                  <span>Trending worldwide</span>
+                  <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                </div>
+                <p>Twitter</p>
+                <span>59K Tweets</span>
+              </div>
+              <div class="trending-item">
+                <div class="trending-item-category">
+                  <span>Trending worldwide</span>
+                  <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                </div>
+                <p>Twitter</p>
+                <span>59K Tweets</span>
+              </div>
+              <div class="trending-item">
+                <div class="trending-item-category">
+                  <span>Trending worldwide</span>
+                  <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                </div>
+                <p>Twitter</p>
+                <span>59K Tweets</span>
+              </div>
+            </div>
+            <!-- show more option -->
+            <a class="show-more" href="#">Show more</a>
+          </div>
+          <!-- follow section -->
+          <div class="follow-container">
+            <h1>Who to follow</h1>
+            <div class="follow-profiles-container">
+              <div class="follow-profile">
+                <img
+                  src="./assets/images/avatar.png"
+                  alt="avatar"
+                  class="avatar"
+                />
+                <div class="follow-profile-details">
+                  <a href="#">Alice Doe</a>
+                  <span
+                    >@alice-doe<span id="follows-you">follows you</span></span
+                  >
+                </div>
+                <button class="tweet-button">Follow</button>
+              </div>
+              <div class="follow-profile">
+                <img
+                  src="./assets/images/avatar.png"
+                  alt="avatar"
+                  class="avatar"
+                />
+                <div class="follow-profile-details">
+                  <a href="#">Bob Doe</a>
+                  <span>@bob-doe</span>
+                </div>
+                <button class="tweet-button">Follow</button>
+              </div>
+              <div class="follow-profile">
+                <img
+                  src="./assets/images/avatar.png"
+                  alt="avatar"
+                  class="avatar"
+                />
+                <div class="follow-profile-details">
+                  <a href="#">Carl Doe</a>
+                  <span
+                    >@carl-doe<span id="follows-you">follows you</span></span
+                  >
+                </div>
+                <button class="tweet-button">Follow</button>
+              </div>
+            </div>
+            <a class="show-more" href="#">Show more</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
