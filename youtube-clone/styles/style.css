@@ -259,3 +259,33 @@ nav hr {
   margin-left: auto;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+
+  aside,
+  .header-left-section,
+  .header-right-section {
+    display: none;
+  }
+
+  header {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .header-mid-section {
+    width: 100%;
+  }
+
+  .videos-container {
+    justify-content: center;
+  }
+
+  .video {
+    width: 250px;
+    margin: 5px;
+  }
+}
